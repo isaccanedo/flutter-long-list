@@ -1,16 +1,4 @@
-# long_list
+## Trabalhe com listas longas
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+O construtor ListView padrão funciona bem para listas pequenas. Para trabalhar com listas que contêm um grande número de itens, é melhor usar o construtor ListView.builder.  
+Em contraste com o construtor ListView padrão, que requer a criação de todos os itens de uma vez, o construtor ListView.builder () cria itens conforme eles são rolados na tela.
